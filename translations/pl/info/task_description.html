@@ -1,0 +1,28 @@
+<p style="text-align: justify;">
+    W tym zadaniu otrzyma Pan/Pani wynik, a Pana/Pani zadaniem będzie znalezienie wyrażenia arytmetycznego, które wykorzystuje tylko liczby pi i e do uzyskania tego wyniku.
+    Można użyć operacji dodawania, odejmowania, mnożenia, dzielenia i potęgowania, a każda z liczb (pi i e) może wystąpić co najwyżej dwa razy.
+    Nawiasy nie są dozwolone. Jeśli istnieje wiele rozwiązań, proszę zwrócić to, które wymaga mniejszej liczby operacji. Jeśli nadal istnieje wiele rozwiązań,
+    proszę zwrócić to, które jest pierwsze w kolejności alfabetycznej (bez spacji). Obliczony wynik musi być równy z błędem mniejszym niż 1 x <sup> 10-10</sup>. 
+    Jeśli nie ma rozwiązania dla danych wejściowych, proszę zwrócić None. Dozwolony jest nieujemny/dodatni symbol na początku.
+</p>
+    
+<p>
+   <strong>Wejście:</strong> Liczba zmiennoprzecinkowa <span>({% if is_js %}number{% else %}float{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Wyjście:</strong> String <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+    
+<p>
+    <strong>Przykłady:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p class="for_info_only">
+   <strong>Jak jest używany:</strong>
+W wyzwaniach, które wymagają znalezienia wyrażeń arytmetycznych, możemy intuicyjnie dostrzec interesujące zależności matematyczne. Na przykład, jedną z takich zależności jest fakt, że <sup>1/12</sup> + <sup>1/22</sup> + <sup>1/32</sup> + ... = 1.64493406685... = <sup>&pi;2/6</sup> 
+</p>
+    
+    

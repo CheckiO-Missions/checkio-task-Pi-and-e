@@ -1,0 +1,28 @@
+<p style="text-align: justify;">
+    在这个挑战中，你将得到一个结果，而你的任务是找出一个算术表达式，只用数字 pi 和 e 就能得到这个结果。
+    您可以使用加法、减法、乘法、除法和指数运算，每个数字（π 和 e）最多出现两次。
+    不允许使用括号。如果有多个解，返回需要较少运算的解。如果仍有多个解，则
+    返回按字母顺序排列在前的一个（不含空格）。计算结果必须相等，误差小于 1 x<sup> 10</sup>-10。 
+    如果输入内容无解，则返回 "无"。允许在开头使用非负/正符号。
+</p>
+    
+<p>
+   <strong>输入</strong>浮点数 <span>({% if is_js %}number{% else %}float{% endif %})</span>.
+</p>
+
+<p>
+   <strong>输出： 字符串</strong>字符串 <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+    
+<p>
+    <strong>示例</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p class="for_info_only">
+   <strong>如何使用：</strong>
+在需要找到算术表达式的挑战中，我们可以直观地发现有趣的数学关系。例如，1/<sup>12</sup>+<sup>1/22</sup>+<sup>1/32</sup>+... = 1.64493406685... =<sup>&pi;2/6</sup> 就是这样一种关系。 
+</p>
+    
+    

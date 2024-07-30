@@ -1,0 +1,28 @@
+<p style="text-align: justify;">
+    Bei dieser Aufgabe wird Ihnen ein Ergebnis vorgegeben. Ihre Aufgabe ist es, einen arithmetischen Ausdruck zu finden, der nur die Zahlen pi und e verwendet, um dieses Ergebnis zu erhalten.
+    Sie können Additions-, Subtraktions-, Multiplikations-, Divisions- und Potenzierungsoperationen verwenden, und jede Zahl (pi und e) darf höchstens zweimal vorkommen.
+    Klammern sind nicht erlaubt. Wenn es mehrere Lösungen gibt, geben Sie diejenige zurück, die weniger Operationen erfordert. Wenn es immer noch mehrere Lösungen gibt,
+    geben Sie die Lösung zurück, die alphabetisch an erster Stelle steht (ohne Leerzeichen). Das berechnete Ergebnis muss gleich sein und einen Fehler kleiner als 1 x <sup> 10-10</sup> aufweisen. 
+    Wenn es keine Lösung für die Eingabe gibt, geben Sie zurück <span>{% if is_js %}null{% else %}None{% endif %}</span>. Ein nicht negatives/positives Symbol am Anfang ist erlaubt.
+</p>
+    
+<p>
+   <strong>Eingabe:</strong> Fließkommazahl <span>({% if is_js %}number{% else %}float{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> String <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+    
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p class="for_info_only">
+   <strong>Wie es verwendet wird:</strong>
+Bei Aufgaben, die das Finden arithmetischer Ausdrücke erfordern, können wir interessante mathematische Beziehungen intuitiv erkennen. Eine solche Beziehung ist zum Beispiel die Tatsache, dass <sup>1/12</sup> + <sup>1/22</sup> + <sup>1/32</sup> + ... = 1,64493406685... = <sup>&pi;2/6</sup>. 
+</p>
+    
+    
